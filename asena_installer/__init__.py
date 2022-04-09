@@ -17,9 +17,9 @@ def soru (soru):
    return console.input(f"[bold yellow]{soru}[/]")
 def logo (dil = "None"):
    surum = str(sys.version_info[0]) + "." + str(sys.version_info[1])
-   console.print(Panel(f"[bold blue]@AsenaUserBot Installer :wolf:[/]\n\n[bold cyan]Version: [/][i]2.1[/]\n[bold cyan]Python: [/][i]{surum}[/]\n[bold cyan]Dil: [/][i]{dil}[/]"), justify="center")                         
+   console.print(Panel(f"[bold blue]@Coderator Installer :wolf:[/]\n\n[bold cyan]Version: [/][i]2.1[/]\n[bold cyan]Python: [/][i]{surum}[/]\n[bold cyan]Dil: [/][i]{dil}[/]"), justify="center")                         
 def tamamlandi (saniye):
-   console.print(Panel(f"[bold green]Kurulum Tamamlandı!\n[i]Botu {round(saniye)} saniye içinde kurdunuz.[/]\n\n[bold green]Birkaç dakika sonra herhangi bir sohbette .alive yazarak test edebilirsiniz. Keyifli kullanımlar dileriz:)[/]"), justify="center")                         
+   console.print(Panel(f"[bold green]Qurulum Tamamlandı!\n[i]Botu {round(saniye)} saniyə içinde kurdunuz.[/]\n\n[bold green]2-3 dəqiqə sonra hər hansı bir sohbətə .alive yazaraq test edəbilərsiniz. Botunuz xeyirli olsun:)[/]"), justify="center")                         
                    
 def rm_r(path):
     if not os.path.exists(path):
