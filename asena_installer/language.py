@@ -5,8 +5,8 @@ from . import logo, console, bilgi
 def importlang ():
     console.clear()
     logo()
-    bilgi("\n\[1] Türkçe\n\[2] Azərbaycanca\n\[3] English\n\[4] O'zbek")
-    Dil = Prompt.ask("[bold yellow]Lütfen bir dil seçin / Please select a language[/]", choices=["1", "2", "3", "4"], default="1")
+    bilgi("\n\[1] Türkçə\n\[2] Azərbaycanca\n\[3] English\n\[4] O'zbek")
+    Dil = Prompt.ask("[bold yellow]Zəhmət olmasa bir dil seçin / Please select a language[/]", choices=["1", "2", "3", "4"], default="1")
 
     if Dil == "1":
         COUNTRY = "Turkey"
@@ -28,4 +28,4 @@ def importlang ():
     return COUNTRY, LANGUAGE, TZ
 
 COUNTRY, LANGUAGE, TZ = importlang()
-LANG = loads(open(f"./asena_installer/language/{LANGUAGE}.asenajson", "r").read())["STRINGS"]
+LANG = loads(open(f"./coderator_installer/language/{LANGUAGE}.asenajson", "r").read())["STRINGS"]
