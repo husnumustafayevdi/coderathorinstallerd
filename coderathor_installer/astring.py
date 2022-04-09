@@ -1,8 +1,4 @@
-# Coded By GitHub/Quiec TG/Fusuf #
-# Don't kang without permission #
-# @AsenaUserBot #
-
-
+#Coderathor UserBot | Wiperowner
 import asyncio
 import os
 import sys
